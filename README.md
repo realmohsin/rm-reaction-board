@@ -1,33 +1,23 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.realmohsin.com/favicon.ico" width="60" />
-  </a>
-</p>
 <h1 align="center">
   Reaction
 </h1>
 
 Reaction is a text-board that allows users to react to messages in real time. It uses [PubNub](https://pubnub.com) to implement the Publish-Subscribe software pattern.
 
-\_
-\_
-
 ### 🚀 Quick start
 
-1.  **Start development server.**
+1.  Start development server.
 
     ```sh
     # start development server
     npm start
     ```
 
-2.  **Open the source code and start editing.**
+2.  Open the source code and start editing.
 
     Visit the [create-react-app](https://github.com/facebook/create-react-app) documentation for editing help in development mode.
 
 ### 🧐 What's inside?
-
-A quick look at the top-level files and directories you'll see in the project.
 
     .
     ├── node_modules
@@ -50,11 +40,11 @@ Explanation of important folders and modules:
 
 1.  **`/components`**: This directory contains all of the React component modules.
 
-2.  **`/state`**: This directory contains the modules involved in creating the reducer pattern for the state of the application.
+2.  **`/state`**: This directory contains the modules involved in creating the state using the reducer pattern.
 
-3.  **`.AppContext.js`**: This file creates a React context that is used to send state and state-changing functions down to nested components.
+3.  **`.AppContext.js`**: This file exports React context that is used to send state and action creators down to nested components.
 
-4.  **`pubsub.js`**: This file creates a class for interacting with the PubNub.
+4.  **`pubsub.js`**: This file exports a class for interacting with the [PubNub](https://pubnub.com) API.
 
 ### 💫 State Shape
 
