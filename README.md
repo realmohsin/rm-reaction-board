@@ -7,9 +7,9 @@
   Reaction
 </h1>
 
-Reaction is a text board that allows users to react to messages in real time. It uses [PubNub](https://pubnub.com) to implement the Publish-Subscribe software pattern.
+Reaction is a text-board that allows users to react to messages in real time. It uses [PubNub](https://pubnub.com) to implement the Publish-Subscribe software pattern.
 
-## 🚀 Quick start
+### 🚀 Quick start
 
 1.  **Start development server.**
 
@@ -20,29 +20,27 @@ Reaction is a text board that allows users to react to messages in real time. It
 
 2.  **Open the source code and start editing.**
 
-    This project was initiated using the create-react-app template.
-    Visit the create-react-app documentation for editing help in development mode.
+    Visit the [create-react-app](https://github.com/facebook/create-react-app) documentation for editing help in development mode.
 
-## 🧐 What's inside?
+### 🧐 What's inside?
 
 A quick look at the top-level files and directories you'll see in the project.
-
-    .
-    ├── node_modules
-    ├── public
-    ├── src
-        ├── components
-        ├── state
-        ├── AppContext.js
-        ├── data.js
-        ├── index.css
-        ├── index.js
-        ├── pubnub.config.json
-        ├── pubsub.js
-    ├── .gitignore
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+.
+├── node_modules
+├── public
+├── src
+├── components
+├── state
+├── AppContext.js
+├── data.js
+├── index.css
+├── index.js
+├── pubnub.config.json
+├── pubsub.js
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
 
 Explanation of relevant folders and modules:
 
@@ -52,17 +50,11 @@ Explanation of relevant folders and modules:
 
 3.  **`.AppContext.js`**: This file creates a React context that is used to send state and state-changing functions down to nested components.
 
-4.  **`data.js`**: This file holds static data.
+4.  **`pubsub.js`**: This file creates a class for interacting with the [PubNub](https://pubnub.com) API.
 
-5.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+### 💫 State Shape
 
-6.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-7.  **`README.md`**: A text file containing useful reference information about the project.
-
-## 💫 State Shape
-
-    ```sh
+    ```js
 
 let state =
 {
