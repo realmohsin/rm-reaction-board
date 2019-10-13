@@ -9,6 +9,9 @@
 
 Reaction is a text-board that allows users to react to messages in real time. It uses [PubNub](https://pubnub.com) to implement the Publish-Subscribe software pattern.
 
+\_
+\_
+
 ### 🚀 Quick start
 
 1.  **Start development server.**
@@ -43,7 +46,7 @@ A quick look at the top-level files and directories you'll see in the project.
     ├── package.json
     └── README.md
 
-Explanation of relevant folders and modules:
+Explanation of important folders and modules:
 
 1.  **`/components`**: This directory contains all of the React component modules.
 
