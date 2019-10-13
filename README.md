@@ -25,22 +25,23 @@ Reaction is a text-board that allows users to react to messages in real time. It
 ### 🧐 What's inside?
 
 A quick look at the top-level files and directories you'll see in the project.
-.
-├── node_modules
-├── public
-├── src
-├── components
-├── state
-├── AppContext.js
-├── data.js
-├── index.css
-├── index.js
-├── pubnub.config.json
-├── pubsub.js
-├── .gitignore
-├── package-lock.json
-├── package.json
-└── README.md
+
+    .
+    ├── node_modules
+    ├── public
+    ├── src
+        ├── components
+        ├── state
+        ├── AppContext.js
+        ├── data.js
+        ├── index.css
+        ├── index.js
+        ├── pubnub.config.json
+        ├── pubsub.js
+    ├── .gitignore
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
 
 Explanation of relevant folders and modules:
 
@@ -50,29 +51,28 @@ Explanation of relevant folders and modules:
 
 3.  **`.AppContext.js`**: This file creates a React context that is used to send state and state-changing functions down to nested components.
 
-4.  **`pubsub.js`**: This file creates a class for interacting with the [PubNub](https://pubnub.com) API.
+4.  **`pubsub.js`**: This file creates a class for interacting with the PubNub.
 
 ### 💫 State Shape
 
-    ```js
-
-let state =
-{
-username: 'Anonymous',
-messages: [{
-text: '',
-createdBy: '',
-createdAt: date,
-id: uuid
-}],
-emojiMap: {
-messageId: [{
-emoji: '',
-username: ''
-}]
-}
-}
-
-```
-
+```javascript
+let state = {
+  username: "Anonymous",
+  messages: [
+    {
+      text: "",
+      createdBy: "",
+      createdAt: date,
+      id: uuid,
+    },
+  ],
+  emojiMap: {
+    messageId: [
+      {
+        emoji: "",
+        username: "",
+      },
+    ],
+  },
+};
 ```
