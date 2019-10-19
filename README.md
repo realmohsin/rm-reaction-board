@@ -48,7 +48,7 @@ Explanation of important folders and modules:
 
 4.  **`pubsub.js`**: This file exports a class for interacting with the [PubNub](https://pubnub.com) API.
 
-### 💫 State Shape
+### ⚙️ State Shape
 
 ```javascript
 let state = {
