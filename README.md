@@ -16,7 +16,7 @@ PubNub allows the creation of a channel that client instances can subscribe and 
 - [Support](#support)
 - [Contributing](#contributing)
 
-### 🚀 Installation
+### Installation
 
 1.  Start development server.
 
