@@ -9,7 +9,14 @@ Reaction is a text-board that allows users to react to messages in real time. It
 
 PubNub allows the creation of a channel that client instances can subscribe and publish to. To add something to the message board, an action object is published to the channel. Each subscribed client receives that action and dispatches it to their own reducer.
 
-### 🚀 Quick start
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Support](#support)
+- [Contributing](#contributing)
+
+### 🚀 Installation
 
 1.  Start development server.
 
